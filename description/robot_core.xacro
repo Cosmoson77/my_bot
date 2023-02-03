@@ -29,6 +29,18 @@
 
     </link>
 
+    <!-- BASE_FOOTPRINT LINK -->
+
+    <joint name="base_footprint_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="base_footprint"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="base_footprint">
+    </link>
+
+
     <!-- CHASSIS LINK-->
 
     <joint name="chassis_joint" type="fixed">
@@ -52,7 +64,7 @@
             </geometry>
         </collision>
         <xacro:inertial_box mass="5" x="0.5" y="0.5" z="0.2">
-            <origin xyz="-0.15 0 0" rpy="0 0 0"/>
+            <origin xyz="-0.15 0 0.2" rpy="0 0 0"/>
         </xacro:inertial_box>
 
     </link>
