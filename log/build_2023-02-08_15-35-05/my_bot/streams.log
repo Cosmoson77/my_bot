@@ -1,0 +1,82 @@
+[0.014s] Invoking command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/dev_ws/src/my_bot/install/my_bot
+[0.153s] -- The C compiler identification is GNU 11.3.0
+[0.237s] -- The CXX compiler identification is GNU 11.3.0
+[0.247s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.321s] -- Detecting C compile features
+[0.321s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.403s] -- Detecting CXX compiler ABI info - done
+[0.411s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.411s] -- Detecting CXX compile features
+[0.412s] -- Detecting CXX compile features - done
+[0.415s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.588s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.669s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.703s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.790s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.812s] -- Configured cppcheck include dirs: 
+[0.812s] -- Configured cppcheck exclude dirs and/or files: 
+[0.831s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.831s] -- Configured cpplint exclude dirs and/or files: 
+[0.834s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.839s] -- Added test 'lint_cmake' to check CMake code style
+[0.842s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.861s] -- Added test 'uncrustify' to check C / C++ code style
+[0.861s] -- Configured uncrustify additional arguments: 
+[0.864s] -- Added test 'xmllint' to check XML markup files
+[0.866s] -- Configuring done
+[0.869s] -- Generating done
+[0.870s] -- Build files have been written to: /home/edisonwong/dev_ws/src/my_bot/build/my_bot
+[0.874s] Invoked command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/edisonwong/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edisonwong/dev_ws/src/my_bot/install/my_bot
+[0.876s] Invoking command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[0.912s] Invoked command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/edisonwong/dev_ws/src/my_bot/build/my_bot -- -j8 -l8
+[0.942s] Invoking command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/dev_ws/src/my_bot/build/my_bot
+[0.950s] -- Install configuration: ""
+[0.951s] -- Execute custom install script
+[0.951s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/drive_bot.rviz
+[0.959s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[0.967s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/gazebo_params.yaml
+[0.975s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/joystick.yaml
+[0.983s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/main.rviz
+[0.990s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[0.998s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.006s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/nav2_params.yaml
+[1.014s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.022s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.031s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/camera.xacro
+[1.039s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/depth_camera.xacro
+[1.047s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.055s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.063s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[1.071s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.078s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.086s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.094s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/joystick.launch.py
+[1.103s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_robot.launch.py
+[1.111s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.119s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/localization_launch.py
+[1.127s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/navigation_launch.py
+[1.135s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rplidar.launch.py
+[1.143s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.152s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[1.160s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/kb5.world
+[1.168s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.176s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.184s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.193s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.201s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.209s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[1.217s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[1.226s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[1.234s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[1.242s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[1.251s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[1.259s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[1.267s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.275s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.283s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.291s] -- Symlinking: /home/edisonwong/dev_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[1.301s] Invoked command in '/home/edisonwong/dev_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/edisonwong/dev_ws/src/my_bot/build/my_bot
